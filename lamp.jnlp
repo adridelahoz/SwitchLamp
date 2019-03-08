@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<jnlp codebase="https://sites.google.com/site/bloghelper2/files" spec="1.0+" xmlns:jfx="http://javafx.com">
-  <information>
-    <title>Lamp</title>
-    <vendor>Lamp</vendor>
-    <description>Sample JavaFX 2.0 application.</description>
-    <offline-allowed/>
-  </information>
-  <resources>
-    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
-  </resources>
-  <resources>
-    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Lamp.jar"/>
-  </resources>
-  <applet-desc  width="600" height="500" main-class="com.javafx.main.NoJavaFXFallback"  name="Lamp" >
-    <param name="requiredFXVersion" value="2.2+"/>
-  </applet-desc>
-  <jfx:javafx-desc  width="600" height="500" main-class="Lamp"  name="Lamp" />
-  <update check="always"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase=
+"https://adridelahoz.github.io/SwitchLamp" 
+    href="lamp.jnlp">
+    <information>
+        <title>Lamp</title>
+        <vendor>Lamp</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Lamp.jar"
+            main="true" />
+
+    </resources>
+    <application-desc
+         name="Lamp Switch"
+         main-class=
+           "Lamp"
+         width="300"
+         height="300">
+     </application-desc>
+     <update check="background"/>
 </jnlp>
