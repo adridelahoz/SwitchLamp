@@ -16,6 +16,6 @@
   <applet-desc  width="600" height="500" main-class="com.javafx.main.NoJavaFXFallback"  name="Lamp" >
     <param name="requiredFXVersion" value="2.2+"/>
   </applet-desc>
-  <jfx:javafx-desc  width="600" height="500" main-class="FireworksSample"  name="Lamp" />
+  <jfx:javafx-desc  width="600" height="500" main-class="Lamp"  name="Lamp" />
   <update check="always"/>
 </jnlp>
